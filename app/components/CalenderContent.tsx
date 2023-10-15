@@ -23,7 +23,7 @@ function CalenderContent(props: Omit<CalendarProps, "localizer">) {
     moment("2022-10-16T10:00:00").toDate()
   );
 
-  const handleSelectSlot = ({ start, end }) => {
+  const handleSelectSlot = ({ start, end }: any) => {
     // You can use the 'start' and 'end' values to determine the time slot selected
     // Open a form or modal for event creation
 
