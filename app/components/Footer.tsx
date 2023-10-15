@@ -10,8 +10,8 @@ function Footer() {
             <button className="border border-black p-4">
               <Image
                 src="/images/icons/cross.png"
-                height={16}
-                width={16}
+                height={24}
+                width={24}
                 alt="icon"
                 style={{ objectFit: "contain" }}
               />
