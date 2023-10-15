@@ -10,10 +10,10 @@ function Footer() {
           <div className="flex items-center">
             <button className="border border-black p-4">
               <Image
-                src="/images/icons/Cross.png"
-                alt="Copy"
-                width="20"
-                height="20"
+                src="/images/Icons/1.png"
+                height={16}
+                width={16}
+                alt="icon"
               />
             </button>
             <span className="font-bold mx-8">Preview listing</span>
