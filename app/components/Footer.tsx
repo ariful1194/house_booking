@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CrossIcon from "../../public/images/Icons/cross.png";
-// @import '~react-select/dist/react-datetime.css';
-// import "react-big-calendar/lib/sass/styles";
+
 function Footer() {
   return (
     <div className=" bg-white py-3 fixed w-full bottom-0">
@@ -10,7 +8,13 @@ function Footer() {
         <div className="flex justify-between ">
           <div className="flex items-center">
             <button className="border border-black p-4">
-              <Image src={CrossIcon} height={16} width={16} alt="icon" />
+              <Image
+                src="/images/icons/cross.png"
+                height={16}
+                width={16}
+                alt="icon"
+                style={{ objectFit: "contain" }}
+              />
             </button>
             <span className="font-bold mx-8">Preview listing</span>
             <span className="font-bold ml-8">
@@ -25,6 +29,7 @@ function Footer() {
                   alt="save"
                   width="20"
                   height="20"
+                  style={{ objectFit: "contain" }}
                 />
               </span>
               <span>Save Draft</span>
@@ -33,9 +38,10 @@ function Footer() {
               <span>
                 <Image
                   src="/images/icons/edit.png"
-                  alt="Copy"
+                  alt="edit"
                   width="20"
                   height="20"
+                  style={{ objectFit: "contain" }}
                 />
               </span>
               <span>Edit</span>
@@ -45,9 +51,10 @@ function Footer() {
               <span>
                 <Image
                   src="/images/icons/right.png"
-                  alt="Copy"
+                  alt="right"
                   width="20"
                   height="20"
+                  style={{ objectFit: "contain" }}
                 />
               </span>
             </button>

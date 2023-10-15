@@ -16,8 +16,10 @@ function HeroSection() {
           <Image
             alt="Mountains"
             src="/images/img1.png"
-            layout="fill"
-            objectFit="cover"
+            priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill
+            style={{ objectFit: "contain" }}
           />
         </div>
       </motion.div>
@@ -32,16 +34,18 @@ function HeroSection() {
             <Image
               alt="Mountains"
               src="/images/img2.png"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
-              objectFit="cover"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div style={{ width: "100%", height: "298px", position: "relative" }}>
             <Image
               alt="Mountains"
               src="/images/img3.png"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
-              objectFit="cover"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </motion.div>
@@ -56,15 +60,17 @@ function HeroSection() {
               alt="Mountains"
               src="/images/img4.png"
               fill
-              objectFit="cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              style={{ objectFit: "contain" }}
             />
           </div>
           <div style={{ width: "100%", height: "298px", position: "relative" }}>
             <Image
               alt="Mountains"
               src="/images/img5.png"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               fill
-              objectFit="cover"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </motion.div>
@@ -74,7 +80,7 @@ function HeroSection() {
         className="see_all absolute right-8 bottom-4 bg-white flex px-6 py-4 gap-2"
         href="/see-all"
       >
-        <Image src="/images/Icons/1.png" height={16} width={16} alt="icon" />
+        <Image src="/images/icons/1.png" height={16} width={16} alt="icon" />
         <span className="font-bold">Sell All</span>
       </Link>
     </div>
