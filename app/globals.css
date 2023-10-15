@@ -15,13 +15,94 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.see_all{
+  box-shadow: 0px 16px 40px -7px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #FAFAFA;
+}
+.infoValue{
+  border-radius: var(--componants-input-corner-radius, 0px);
+  background: var(--componants-input-bg-primary, #FFF);
+
+/* 2 */
+box-shadow: 0px 28px 55px -16px rgba(211, 212, 212, 0.17);
+}
+
+.tenantButton{
+  border-radius: var(--componants-button-corner-radius-0, 0px);
+background: var(--componants-button-secondary, #FFF);
+
+/* 1 */
+box-shadow: 0px 16px 40px -7px rgba(0, 0, 0, 0.05);
+}
+.active{
+  background-color: black;
+  color: white;
+}
+/* Toggle A */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: black;
+}
+.packageCard{
+  background: var(--base-white-100, #FFF);
+}
+.rbc-header{
+  /* background-color: red; */
+}
+.rbc-event {
+  background: #E4F9F2 !important;
+  width: 100% !important;
+  border: none !important;
+  color: black !important;
+  font-weight: bold;
+  text-emphasis: center;
+  font-size: 20px !important;
+
+}
+.rbc-event-label{
+  display: none !important;
+}
+.rbc-allday-cell{
+  display: none;
+}
+.rbc-header {
+  padding: 20px !important;
+}
+.rbc-day-slot .rbc-events-container {
+  margin-right: 0 !important;
+}
+.rbc-timeslot-group {
+  min-height: 56px !important;
+}
+
+.rbc-timeslot-group .rbc-time-slot:last-child{
+  display: none !important;
+}
+.rbc-time-slot{
+ display: flex !important;
+  align-items: center !important;
+
+}
+.rbc-event {
+  text-align: center !important;
+}
+.rbc-event-label{
+  display: none !important;
+}
+.rbc-day-slot .rbc-event-content {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.rbc-events-container .rbc-event{
+  /* height: 54px !important; */
+
+}
+
+span.rbc-btn-group button:first-child {
+  display: none !important;
 }
