@@ -7,7 +7,7 @@ function Footer() {
     <div className=" bg-white py-3 fixed w-full bottom-0">
       <div className="container">
         <div className="flex justify-between ">
-          <div>
+          <div className="flex items-center">
             <button className="border border-black p-4">
               <Image
                 src="/images/icons/Cross.png"
