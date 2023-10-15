@@ -10,7 +10,7 @@ function Footer() {
           <div className="flex items-center">
             <button className="border border-black p-4">
               <Image
-                src="/images/Icons/1.png"
+                src="/images/Icons/cross.png"
                 height={16}
                 width={16}
                 alt="icon"
@@ -26,7 +26,7 @@ function Footer() {
               <span>
                 <Image
                   src="/images/icons/copy.png"
-                  alt="Copy"
+                  alt="save"
                   width="20"
                   height="20"
                 />
@@ -36,7 +36,7 @@ function Footer() {
             <button className="p-4 border mx-8 flex gap-4 items-center">
               <span>
                 <Image
-                  src="/images/icons/Edit.png"
+                  src="/images/icons/edit.png"
                   alt="Copy"
                   width="20"
                   height="20"
