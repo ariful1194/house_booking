@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import CrossIcon from "../../public/images/Icons/cross.png";
 // @import '~react-select/dist/react-datetime.css';
 // import "react-big-calendar/lib/sass/styles";
 function Footer() {
@@ -9,12 +10,7 @@ function Footer() {
         <div className="flex justify-between ">
           <div className="flex items-center">
             <button className="border border-black p-4">
-              <Image
-                src="/images/Icons/cross.png"
-                height={16}
-                width={16}
-                alt="icon"
-              />
+              <Image src={CrossIcon} height={16} width={16} alt="icon" />
             </button>
             <span className="font-bold mx-8">Preview listing</span>
             <span className="font-bold ml-8">
