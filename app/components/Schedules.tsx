@@ -8,6 +8,9 @@ const Schedules = () => {
       {/* left */}
       <div className="w-[25%] bg-red">
         <Heading title="Schedules" />
+        <p className="text-base mt-8">
+          Click on an empty box to assign a schedule slot
+        </p>
       </div>
       {/* right */}
       <div className="flex-1 ">
