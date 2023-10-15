@@ -11,6 +11,7 @@ import Relation from "./components/Relation";
 import { Package } from "./components/Package";
 import Footer from "./components/Footer";
 import CalenderContent from "./components/CalenderContent";
+import Schedules from "./components/Schedules";
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
 
         <Relation />
 
-        <CalenderContent />
+        <Schedules />
         {/* package */}
 
         <Package />
