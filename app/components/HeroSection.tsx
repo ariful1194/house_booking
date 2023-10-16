@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 function HeroSection() {
   return (
-    <div className="flex gap-[4px] relative">
+    <div className="flex gap-[4px] relative mt-16">
       <motion.div
         initial={{ opacity: 0, x: -250 }}
         animate={{ opacity: 1, x: 0 }}
